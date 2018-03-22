@@ -1,0 +1,3161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>Okta\Generated\Applications\SamlApplicationSettingsSignOn | Okta PHP SDK</title>
+
+            <link rel="stylesheet" type="text/css" href="../../../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/sami.css">
+        <script src="../../../js/jquery-1.11.1.min.js"></script>
+        <script src="../../../js/bootstrap.min.js"></script>
+        <script src="../../../js/typeahead.min.js"></script>
+        <script src="../../../sami.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    
+    
+    </head>
+
+    <body id="class" data-name="class:Okta_Generated_Applications_SamlApplicationSettingsSignOn" data-root-path="../../../">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                    <form action="#" method="GET">
+                <select id="version-switcher" name="version">
+                                            <option value="../../../../0.1.0/index.html" data-version="0.1.0">0.1.0</option>
+                                            <option value="../../../../0.2.0/index.html" data-version="0.2.0">0.2.0</option>
+                                            <option value="../../../../1.0.0/index.html" data-version="1.0.0">1.0.0</option>
+                                            <option value="../../../../develop/index.html" data-version="develop">Develop</option>
+                                    </select>
+            </form>
+                <script>
+            $('option[data-version="'+window.projectVersion+'"]').prop('selected', true);
+        </script>
+        <form id="search-form" action="../../../search.html" method="GET">
+            <span class="glyphicon glyphicon-search"></span>
+            <input name="search"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search">
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../../index.html">Okta PHP SDK</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../../classes.html">Classes</a></li>
+                                            <li><a href="../../../namespaces.html">Namespaces</a></li>
+                                        <li><a href="../../../interfaces.html">Interfaces</a></li>
+                    <li><a href="../../../traits.html">Traits</a></li>
+                    <li><a href="../../../doc-index.html">Index</a></li>
+                    <li><a href="../../../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">class</span></li>
+                        <li><a href="../../../Okta.html">Okta</a></li><li class="backslash">\</li><li><a href="../../../Okta/Generated.html">Generated</a></li><li class="backslash">\</li><li><a href="../../../Okta/Generated/Applications.html">Applications</a></li><li class="backslash">\</li><li>SamlApplicationSettingsSignOn</li>
+            </ol>
+        </div>
+                <div id="page-content">
+                
+    <div class="page-header">
+        <h1>
+            SamlApplicationSettingsSignOn
+                
+        </h1>
+    </div>
+
+    <p>    class
+    <strong>SamlApplicationSettingsSignOn</strong>        extends <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>        (<a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php">View source</a>)
+</p>
+
+        
+    
+
+    
+    
+            <h2>Constants</h2>
+
+            <table class="table table-condensed">
+                    <tr>
+                <td>ID</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>AUDIENCE</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>SP_ISSUER</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>IDP_ISSUER</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>RECIPIENT</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>SSO_ACS_URL</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>DESTINATION</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>RESPONSE_SIGNED</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>ASSERTION_SIGNED</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>DIGEST_ALGORITHM</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>HONOR_FORCE_AUTHN</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>AUDIENCE_OVERRIDE</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>DEFAULT_RELAY_STATE</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>RECIPIENT_OVERRIDE</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>REQUEST_COMPRESSED</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>SSO_ACS_URL_OVERRIDE</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>SIGNATURE_ALGORITHM</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>ATTRIBUTE_STATEMENTS</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>DESTINATION_OVERRIDE</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>SUBJECT_NAME_ID_FORMAT</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>AUTHN_CONTEXT_CLASS_REF</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>SUBJECT_NAME_ID_TEMPLATE</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+            </table>
+
+    
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___construct">__construct</a>(<a href="../../../Okta/DataStore/DefaultDataStore.html"><abbr title="Okta\DataStore\DefaultDataStore">DefaultDataStore</abbr></a> $dataStore = null, <a target="_blank" href="http://php.net/stdClass">stdClass</a> $properties = null, array $options = [])
+        
+                                            <p>AbstractResource constructor.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method___construct"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getHref">getHref</a>()
+        
+                                            <p>Gets the href property.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_getHref"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setProperties">setProperties</a>(<a target="_blank" href="http://php.net/stdClass">stdClass</a> $properties = null)
+        
+                                            <p>Set properties on the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_setProperties"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getProperty">getProperty</a>(string $name, string|null $castTo = null)
+        
+                                            <p>Gets a property off the resource and allow you to cast it to a type.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_getProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getLinkProperty">getLinkProperty</a>(string $key)
+        
+                                            <p>Get a HAL Linked property.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_getLinkProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getDateProperty">getDateProperty</a>(string $name)
+        
+                                            <p>Returns an instance of Carbon for the date property.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_getDateProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getPropertyNames">getPropertyNames</a>(bool $retrieveDirtyProperties = false)
+        
+                                            <p>Gets the current property names for the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_getPropertyNames"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getDirtyPropertyNames">getDirtyPropertyNames</a>()
+        
+                                            <p>Gets the property names that have been updated.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_getDirtyPropertyNames"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setOptions">setOptions</a>(array $options)
+        
+                                            <p>Set the current options to use for the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_setOptions"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_clearOptions">clearOptions</a>()
+        
+                                            <p>Clears all options on the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_clearOptions"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getOptions">getOptions</a>()
+        
+                                            <p>Get the options currently set on the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_getOptions"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getResourceProperty">getResourceProperty</a>(string $key, string $className, array $options = array())
+        
+                                            <p>Get a resource property from the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_getResourceProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setResourceProperty">setResourceProperty</a>(string $name, <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> $resource)
+        
+                                            <p>Set a resource property  on a resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_setResourceProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setProperty">setProperty</a>(string $name, mixed $value)
+        
+                                            <p>Set a property on a resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_setProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/DataStore/DefaultDataStore.html"><abbr title="Okta\DataStore\DefaultDataStore">DefaultDataStore</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getDataStore">getDataStore</a>()
+        
+                                            <p>Get the current DataStore instance.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_getDataStore"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    bool
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_isDirty">isDirty</a>()
+        
+                                            <p>Is the resource dirty.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_isDirty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getId">getId</a>()
+        
+                                            <p>Gets the ID property off the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_getId"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    bool
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_isNew">isNew</a>()
+        
+                                            <p>Determines if the resource is new or not based on assigned id property.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method_isNew"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___get">__get</a>(string $property)
+        
+                                            <p>Magic "get" method</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method___get"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___set">__set</a>(string $property, mixed $value)
+        
+                                            <p>Magic "set" method</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method___set"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___toString">__toString</a>()
+        
+                                            <p>Returns a json string representation of the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../../Okta/Resource/AbstractResource.html#method___toString"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getAudience">getAudience</a>()
+        
+                                            <p>Get the audience.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setAudience">setAudience</a>(mixed $audience)
+        
+                                            <p>Set the audience.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getSpIssuer">getSpIssuer</a>()
+        
+                                            <p>Get the spIssuer.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setSpIssuer">setSpIssuer</a>(mixed $spIssuer)
+        
+                                            <p>Set the spIssuer.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getIdpIssuer">getIdpIssuer</a>()
+        
+                                            <p>Get the idpIssuer.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setIdpIssuer">setIdpIssuer</a>(mixed $idpIssuer)
+        
+                                            <p>Set the idpIssuer.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getRecipient">getRecipient</a>()
+        
+                                            <p>Get the recipient.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setRecipient">setRecipient</a>(mixed $recipient)
+        
+                                            <p>Set the recipient.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getSsoAcsUrl">getSsoAcsUrl</a>()
+        
+                                            <p>Get the ssoAcsUrl.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setSsoAcsUrl">setSsoAcsUrl</a>(mixed $ssoAcsUrl)
+        
+                                            <p>Set the ssoAcsUrl.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getDestination">getDestination</a>()
+        
+                                            <p>Get the destination.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setDestination">setDestination</a>(mixed $destination)
+        
+                                            <p>Set the destination.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    bool
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getResponseSigned">getResponseSigned</a>()
+        
+                                            <p>Get the responseSigned.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setResponseSigned">setResponseSigned</a>(mixed $responseSigned)
+        
+                                            <p>Set the responseSigned.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    bool
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getAssertionSigned">getAssertionSigned</a>()
+        
+                                            <p>Get the assertionSigned.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setAssertionSigned">setAssertionSigned</a>(mixed $assertionSigned)
+        
+                                            <p>Set the assertionSigned.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getDigestAlgorithm">getDigestAlgorithm</a>()
+        
+                                            <p>Get the digestAlgorithm.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setDigestAlgorithm">setDigestAlgorithm</a>(mixed $digestAlgorithm)
+        
+                                            <p>Set the digestAlgorithm.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    bool
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getHonorForceAuthn">getHonorForceAuthn</a>()
+        
+                                            <p>Get the honorForceAuthn.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setHonorForceAuthn">setHonorForceAuthn</a>(mixed $honorForceAuthn)
+        
+                                            <p>Set the honorForceAuthn.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getAudienceOverride">getAudienceOverride</a>()
+        
+                                            <p>Get the audienceOverride.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setAudienceOverride">setAudienceOverride</a>(mixed $audienceOverride)
+        
+                                            <p>Set the audienceOverride.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getDefaultRelayState">getDefaultRelayState</a>()
+        
+                                            <p>Get the defaultRelayState.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setDefaultRelayState">setDefaultRelayState</a>(mixed $defaultRelayState)
+        
+                                            <p>Set the defaultRelayState.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getRecipientOverride">getRecipientOverride</a>()
+        
+                                            <p>Get the recipientOverride.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setRecipientOverride">setRecipientOverride</a>(mixed $recipientOverride)
+        
+                                            <p>Set the recipientOverride.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    bool
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getRequestCompressed">getRequestCompressed</a>()
+        
+                                            <p>Get the requestCompressed.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setRequestCompressed">setRequestCompressed</a>(mixed $requestCompressed)
+        
+                                            <p>Set the requestCompressed.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getSsoAcsUrlOverride">getSsoAcsUrlOverride</a>()
+        
+                                            <p>Get the ssoAcsUrlOverride.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setSsoAcsUrlOverride">setSsoAcsUrlOverride</a>(mixed $ssoAcsUrlOverride)
+        
+                                            <p>Set the ssoAcsUrlOverride.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getSignatureAlgorithm">getSignatureAlgorithm</a>()
+        
+                                            <p>Get the signatureAlgorithm.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setSignatureAlgorithm">setSignatureAlgorithm</a>(mixed $signatureAlgorithm)
+        
+                                            <p>Set the signatureAlgorithm.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getAttributeStatements">getAttributeStatements</a>()
+        
+                                            <p>Get the attributeStatements.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setAttributeStatements">setAttributeStatements</a>(mixed $attributeStatements)
+        
+                                            <p>Set the attributeStatements.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getDestinationOverride">getDestinationOverride</a>()
+        
+                                            <p>Get the destinationOverride.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setDestinationOverride">setDestinationOverride</a>(mixed $destinationOverride)
+        
+                                            <p>Set the destinationOverride.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getSubjectNameIdFormat">getSubjectNameIdFormat</a>()
+        
+                                            <p>Get the subjectNameIdFormat.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setSubjectNameIdFormat">setSubjectNameIdFormat</a>(mixed $subjectNameIdFormat)
+        
+                                            <p>Set the subjectNameIdFormat.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getAuthnContextClassRef">getAuthnContextClassRef</a>()
+        
+                                            <p>Get the authnContextClassRef.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setAuthnContextClassRef">setAuthnContextClassRef</a>(mixed $authnContextClassRef)
+        
+                                            <p>Set the authnContextClassRef.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getSubjectNameIdTemplate">getSubjectNameIdTemplate</a>()
+        
+                                            <p>Get the subjectNameIdTemplate.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setSubjectNameIdTemplate">setSubjectNameIdTemplate</a>(mixed $subjectNameIdTemplate)
+        
+                                            <p>Set the subjectNameIdTemplate.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method___construct">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method___construct"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L68">line 68</a></div>
+        <code>                    
+    <strong>__construct</strong>(<a href="../../../Okta/DataStore/DefaultDataStore.html"><abbr title="Okta\DataStore\DefaultDataStore">DefaultDataStore</abbr></a> $dataStore = null, <a target="_blank" href="http://php.net/stdClass">stdClass</a> $properties = null, array $options = [])
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>AbstractResource constructor.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../../Okta/DataStore/DefaultDataStore.html"><abbr title="Okta\DataStore\DefaultDataStore">DefaultDataStore</abbr></a></td>
+                <td>$dataStore</td>
+                <td>DataStore to use for requests.</td>
+            </tr>
+                    <tr>
+                <td><a target="_blank" href="http://php.net/stdClass">stdClass</a></td>
+                <td>$properties</td>
+                <td>Properties for the resource.</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td>Options to use on the resource.</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getHref">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_getHref"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L82">line 82</a></div>
+        <code>                    string
+    <strong>getHref</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Gets the href property.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setProperties">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_setProperties"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L93">line 93</a></div>
+        <code>                    <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+    <strong>setProperties</strong>(<a target="_blank" href="http://php.net/stdClass">stdClass</a> $properties = null)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set properties on the resource.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a target="_blank" href="http://php.net/stdClass">stdClass</a></td>
+                <td>$properties</td>
+                <td>the properties to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getProperty">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_getProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L116">line 116</a></div>
+        <code>                    mixed|null
+    <strong>getProperty</strong>(string $name, string|null $castTo = null)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Gets a property off the resource and allow you to cast it to a type.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>Property to get off the resource.</td>
+            </tr>
+                    <tr>
+                <td>string|null</td>
+                <td>$castTo</td>
+                <td>Cast your item to this type.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getLinkProperty">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_getLinkProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L133">line 133</a></div>
+        <code>                    mixed|null
+    <strong>getLinkProperty</strong>(string $key)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get a HAL Linked property.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$key</td>
+                <td>The property you want to get from the _links section.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getDateProperty">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_getDateProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L155">line 155</a></div>
+        <code>                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+    <strong>getDateProperty</strong>(string $name)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Returns an instance of Carbon for the date property.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>Get this date property of the resource.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Carbon\Carbon">Carbon</abbr>|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getPropertyNames">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_getPropertyNames"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L172">line 172</a></div>
+        <code>                    array
+    <strong>getPropertyNames</strong>(bool $retrieveDirtyProperties = false)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Gets the current property names for the resource.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>bool</td>
+                <td>$retrieveDirtyProperties</td>
+                <td>determines if you want to get only dirty properties with id.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getDirtyPropertyNames">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_getDirtyPropertyNames"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L186">line 186</a></div>
+        <code>            protected        array
+    <strong>getDirtyPropertyNames</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Gets the property names that have been updated.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setOptions">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_setOptions"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L204">line 204</a></div>
+        <code>                    <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+    <strong>setOptions</strong>(array $options)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the current options to use for the resource.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td>The options to set on the resource, typically query params.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_clearOptions">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_clearOptions"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L215">line 215</a></div>
+        <code>                    <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+    <strong>clearOptions</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Clears all options on the resource.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getOptions">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_getOptions"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L226">line 226</a></div>
+        <code>                    array
+    <strong>getOptions</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the options currently set on the resource.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getResourceProperty">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_getResourceProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L240">line 240</a></div>
+        <code>            protected        <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+    <strong>getResourceProperty</strong>(string $key, string $className, array $options = array())
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get a resource property from the resource.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$key</td>
+                <td>The name of the resource property you want to get.</td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$className</td>
+                <td>The class name you want to return as.</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td>Additional options to pass, Typically query params.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setResourceProperty">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_setResourceProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L256">line 256</a></div>
+        <code>            protected        void
+    <strong>setResourceProperty</strong>(string $name, <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> $resource)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set a resource property  on a resource.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>Which property do you want to set.</td>
+            </tr>
+                    <tr>
+                <td><a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></td>
+                <td>$resource</td>
+                <td>What you want to set the property as.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setProperty">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_setProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L269">line 269</a></div>
+        <code>            protected        void
+    <strong>setProperty</strong>(string $name, mixed $value)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set a property on a resource.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>Which property do you want to set.</td>
+            </tr>
+                    <tr>
+                <td>mixed</td>
+                <td>$value</td>
+                <td>What you want to set the property as.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getDataStore">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_getDataStore"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L281">line 281</a></div>
+        <code>            protected        <a href="../../../Okta/DataStore/DefaultDataStore.html"><abbr title="Okta\DataStore\DefaultDataStore">DefaultDataStore</abbr></a>
+    <strong>getDataStore</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the current DataStore instance.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/DataStore/DefaultDataStore.html"><abbr title="Okta\DataStore\DefaultDataStore">DefaultDataStore</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_isDirty">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_isDirty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L293">line 293</a></div>
+        <code>            protected        bool
+    <strong>isDirty</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Is the resource dirty.</p>                    <p>Has the resource been updated since you retrieved it from the API.</p>                            </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>bool</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getId">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_getId"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L303">line 303</a></div>
+        <code>                    string|null
+    <strong>getId</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Gets the ID property off the resource.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_isNew">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method_isNew"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L313">line 313</a></div>
+        <code>            protected        bool
+    <strong>isNew</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Determines if the resource is new or not based on assigned id property.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>bool</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method___get">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method___get"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L339">line 339</a></div>
+        <code>                    mixed|null
+    <strong>__get</strong>(string $property)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Magic "get" method</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$property</td>
+                <td>Property name</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td>Property value if it exists, null if not</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method___set">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method___set"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L360">line 360</a></div>
+        <code>                    <a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+    <strong>__set</strong>(string $property, mixed $value)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Magic "set" method</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$property</td>
+                <td>Property name</td>
+            </tr>
+                    <tr>
+                <td>mixed</td>
+                <td>$value</td>
+                <td>Property value</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method___toString">
+        <div class="location">in <a href="../../../Okta/Resource/AbstractResource.html#method___toString"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Resource/AbstractResource.php#L377">line 377</a></div>
+        <code>                    string
+    <strong>__toString</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Returns a json string representation of the resource.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getAudience">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L52">line 52</a></div>
+        <code>                    string
+    <strong>getAudience</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the audience.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setAudience">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L63">line 63</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setAudience</strong>(mixed $audience)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the audience.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$audience</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSpIssuer">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L78">line 78</a></div>
+        <code>                    string
+    <strong>getSpIssuer</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the spIssuer.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setSpIssuer">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L89">line 89</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setSpIssuer</strong>(mixed $spIssuer)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the spIssuer.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$spIssuer</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getIdpIssuer">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L104">line 104</a></div>
+        <code>                    string
+    <strong>getIdpIssuer</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the idpIssuer.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setIdpIssuer">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L115">line 115</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setIdpIssuer</strong>(mixed $idpIssuer)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the idpIssuer.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$idpIssuer</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getRecipient">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L130">line 130</a></div>
+        <code>                    string
+    <strong>getRecipient</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the recipient.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setRecipient">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L141">line 141</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setRecipient</strong>(mixed $recipient)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the recipient.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$recipient</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSsoAcsUrl">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L156">line 156</a></div>
+        <code>                    string
+    <strong>getSsoAcsUrl</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the ssoAcsUrl.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setSsoAcsUrl">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L167">line 167</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setSsoAcsUrl</strong>(mixed $ssoAcsUrl)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the ssoAcsUrl.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$ssoAcsUrl</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getDestination">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L182">line 182</a></div>
+        <code>                    string
+    <strong>getDestination</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the destination.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setDestination">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L193">line 193</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setDestination</strong>(mixed $destination)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the destination.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$destination</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getResponseSigned">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L208">line 208</a></div>
+        <code>                    bool
+    <strong>getResponseSigned</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the responseSigned.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>bool</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setResponseSigned">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L219">line 219</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setResponseSigned</strong>(mixed $responseSigned)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the responseSigned.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$responseSigned</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getAssertionSigned">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L234">line 234</a></div>
+        <code>                    bool
+    <strong>getAssertionSigned</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the assertionSigned.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>bool</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setAssertionSigned">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L245">line 245</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setAssertionSigned</strong>(mixed $assertionSigned)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the assertionSigned.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$assertionSigned</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getDigestAlgorithm">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L260">line 260</a></div>
+        <code>                    string
+    <strong>getDigestAlgorithm</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the digestAlgorithm.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setDigestAlgorithm">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L271">line 271</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setDigestAlgorithm</strong>(mixed $digestAlgorithm)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the digestAlgorithm.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$digestAlgorithm</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getHonorForceAuthn">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L286">line 286</a></div>
+        <code>                    bool
+    <strong>getHonorForceAuthn</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the honorForceAuthn.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>bool</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setHonorForceAuthn">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L297">line 297</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setHonorForceAuthn</strong>(mixed $honorForceAuthn)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the honorForceAuthn.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$honorForceAuthn</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getAudienceOverride">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L312">line 312</a></div>
+        <code>                    string
+    <strong>getAudienceOverride</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the audienceOverride.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setAudienceOverride">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L323">line 323</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setAudienceOverride</strong>(mixed $audienceOverride)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the audienceOverride.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$audienceOverride</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getDefaultRelayState">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L338">line 338</a></div>
+        <code>                    string
+    <strong>getDefaultRelayState</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the defaultRelayState.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setDefaultRelayState">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L349">line 349</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setDefaultRelayState</strong>(mixed $defaultRelayState)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the defaultRelayState.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$defaultRelayState</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getRecipientOverride">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L364">line 364</a></div>
+        <code>                    string
+    <strong>getRecipientOverride</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the recipientOverride.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setRecipientOverride">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L375">line 375</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setRecipientOverride</strong>(mixed $recipientOverride)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the recipientOverride.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$recipientOverride</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getRequestCompressed">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L390">line 390</a></div>
+        <code>                    bool
+    <strong>getRequestCompressed</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the requestCompressed.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>bool</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setRequestCompressed">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L401">line 401</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setRequestCompressed</strong>(mixed $requestCompressed)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the requestCompressed.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$requestCompressed</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSsoAcsUrlOverride">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L416">line 416</a></div>
+        <code>                    string
+    <strong>getSsoAcsUrlOverride</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the ssoAcsUrlOverride.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setSsoAcsUrlOverride">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L427">line 427</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setSsoAcsUrlOverride</strong>(mixed $ssoAcsUrlOverride)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the ssoAcsUrlOverride.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$ssoAcsUrlOverride</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSignatureAlgorithm">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L442">line 442</a></div>
+        <code>                    string
+    <strong>getSignatureAlgorithm</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the signatureAlgorithm.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setSignatureAlgorithm">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L453">line 453</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setSignatureAlgorithm</strong>(mixed $signatureAlgorithm)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the signatureAlgorithm.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$signatureAlgorithm</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getAttributeStatements">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L468">line 468</a></div>
+        <code>                    array
+    <strong>getAttributeStatements</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the attributeStatements.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setAttributeStatements">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L479">line 479</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setAttributeStatements</strong>(mixed $attributeStatements)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the attributeStatements.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$attributeStatements</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getDestinationOverride">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L494">line 494</a></div>
+        <code>                    string
+    <strong>getDestinationOverride</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the destinationOverride.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setDestinationOverride">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L505">line 505</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setDestinationOverride</strong>(mixed $destinationOverride)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the destinationOverride.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$destinationOverride</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSubjectNameIdFormat">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L520">line 520</a></div>
+        <code>                    string
+    <strong>getSubjectNameIdFormat</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the subjectNameIdFormat.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setSubjectNameIdFormat">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L531">line 531</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setSubjectNameIdFormat</strong>(mixed $subjectNameIdFormat)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the subjectNameIdFormat.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$subjectNameIdFormat</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getAuthnContextClassRef">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L546">line 546</a></div>
+        <code>                    string
+    <strong>getAuthnContextClassRef</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the authnContextClassRef.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setAuthnContextClassRef">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L557">line 557</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setAuthnContextClassRef</strong>(mixed $authnContextClassRef)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the authnContextClassRef.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$authnContextClassRef</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSubjectNameIdTemplate">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L572">line 572</a></div>
+        <code>                    string
+    <strong>getSubjectNameIdTemplate</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the subjectNameIdTemplate.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setSubjectNameIdTemplate">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/develop/src/Generated/Applications/SamlApplicationSettingsSignOn.php#L583">line 583</a></div>
+        <code>                    <a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a>
+    <strong>setSubjectNameIdTemplate</strong>(mixed $subjectNameIdTemplate)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the subjectNameIdTemplate.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>mixed</td>
+                <td>$subjectNameIdTemplate</td>
+                <td>The value to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../../Okta/Generated/Applications/SamlApplicationSettingsSignOn.html"><abbr title="Okta\Generated\Applications\SamlApplicationSettingsSignOn">SamlApplicationSettingsSignOn</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+            </div>
+                <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/">Sami, the API Documentation Generator</a>.
+    </div>
+
+        </div>
+    </div>
+    </body>
+
+</html>

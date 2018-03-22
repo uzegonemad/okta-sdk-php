@@ -1,0 +1,3201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>Okta\Users\User | Okta PHP SDK</title>
+
+            <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/sami.css">
+        <script src="../../js/jquery-1.11.1.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+        <script src="../../js/typeahead.min.js"></script>
+        <script src="../../sami.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    
+    
+    </head>
+
+    <body id="class" data-name="class:Okta_Users_User" data-root-path="../../">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                    <form action="#" method="GET">
+                <select id="version-switcher" name="version">
+                                            <option value="../../../0.1.0/index.html" data-version="0.1.0">0.1.0</option>
+                                            <option value="../../../0.2.0/index.html" data-version="0.2.0">0.2.0</option>
+                                            <option value="../../../1.0.0/index.html" data-version="1.0.0">1.0.0</option>
+                                            <option value="../../../develop/index.html" data-version="develop">Develop</option>
+                                    </select>
+            </form>
+                <script>
+            $('option[data-version="'+window.projectVersion+'"]').prop('selected', true);
+        </script>
+        <form id="search-form" action="../../search.html" method="GET">
+            <span class="glyphicon glyphicon-search"></span>
+            <input name="search"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search">
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../index.html">Okta PHP SDK</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../classes.html">Classes</a></li>
+                                            <li><a href="../../namespaces.html">Namespaces</a></li>
+                                        <li><a href="../../interfaces.html">Interfaces</a></li>
+                    <li><a href="../../traits.html">Traits</a></li>
+                    <li><a href="../../doc-index.html">Index</a></li>
+                    <li><a href="../../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">class</span></li>
+                        <li><a href="../../Okta.html">Okta</a></li><li class="backslash">\</li><li><a href="../../Okta/Users.html">Users</a></li><li class="backslash">\</li><li>User</li>
+            </ol>
+        </div>
+                <div id="page-content">
+                
+    <div class="page-header">
+        <h1>
+            User
+                
+        </h1>
+    </div>
+
+    <p>    class
+    <strong>User</strong>        extends <a href="../../Okta/Generated/Users/User.html"><abbr title="Okta\Generated\Users\User">User</abbr></a>        (<a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Users/User.php">View source</a>)
+</p>
+
+        
+    
+
+    
+    
+            <h2>Constants</h2>
+
+            <table class="table table-condensed">
+                    <tr>
+                <td>ID</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>LINKS</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>STATUS</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>CREATED</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>PROFILE</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>EMBEDDED</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>ACTIVATED</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>LAST_LOGIN</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>CREDENTIALS</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>LAST_UPDATED</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>STATUS_CHANGED</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>PASSWORD_CHANGED</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>TRANSITIONING_TO_STATUS</td>
+                <td class="last">
+                    <p><em></em></p>
+                    <p></p>
+                </td>
+            </tr>
+            </table>
+
+    
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___construct">__construct</a>(<a href="../../Okta/DataStore/DefaultDataStore.html"><abbr title="Okta\DataStore\DefaultDataStore">DefaultDataStore</abbr></a> $dataStore = null, <a target="_blank" href="http://php.net/stdClass">stdClass</a> $properties = null, array $options = [])
+        
+                                            <p>AbstractResource constructor.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method___construct"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getHref">getHref</a>()
+        
+                                            <p>Gets the href property.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_getHref"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setProperties">setProperties</a>(<a target="_blank" href="http://php.net/stdClass">stdClass</a> $properties = null)
+        
+                                            <p>Set properties on the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_setProperties"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getProperty">getProperty</a>(string $name, string|null $castTo = null)
+        
+                                            <p>Gets a property off the resource and allow you to cast it to a type.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_getProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getLinkProperty">getLinkProperty</a>(string $key)
+        
+                                            <p>Get a HAL Linked property.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_getLinkProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getDateProperty">getDateProperty</a>(string $name)
+        
+                                            <p>Returns an instance of Carbon for the date property.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_getDateProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getPropertyNames">getPropertyNames</a>(bool $retrieveDirtyProperties = false)
+        
+                                            <p>Gets the current property names for the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_getPropertyNames"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getDirtyPropertyNames">getDirtyPropertyNames</a>()
+        
+                                            <p>Gets the property names that have been updated.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_getDirtyPropertyNames"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setOptions">setOptions</a>(array $options)
+        
+                                            <p>Set the current options to use for the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_setOptions"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_clearOptions">clearOptions</a>()
+        
+                                            <p>Clears all options on the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_clearOptions"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getOptions">getOptions</a>()
+        
+                                            <p>Get the options currently set on the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_getOptions"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getResourceProperty">getResourceProperty</a>(string $key, string $className, array $options = array())
+        
+                                            <p>Get a resource property from the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_getResourceProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setResourceProperty">setResourceProperty</a>(string $name, <a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> $resource)
+        
+                                            <p>Set a resource property  on a resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_setResourceProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    void
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setProperty">setProperty</a>(string $name, mixed $value)
+        
+                                            <p>Set a property on a resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_setProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/DataStore/DefaultDataStore.html"><abbr title="Okta\DataStore\DefaultDataStore">DefaultDataStore</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getDataStore">getDataStore</a>()
+        
+                                            <p>Get the current DataStore instance.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_getDataStore"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    bool
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_isDirty">isDirty</a>()
+        
+                                            <p>Is the resource dirty.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_isDirty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getId">getId</a>()
+        
+                                            <p>Get the id.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getId"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    bool
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_isNew">isNew</a>()
+        
+                                            <p>Determines if the resource is new or not based on assigned id property.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method_isNew"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___get">__get</a>(string $property)
+        
+                                            <p>Magic "get" method</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method___get"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___set">__set</a>(string $property, mixed $value)
+        
+                                            <p>Magic "set" method</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method___set"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___toString">__toString</a>()
+        
+                                            <p>Returns a json string representation of the resource.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Resource/AbstractResource.html#method___toString"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_create">create</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_create"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_get">get</a>($query)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_get"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_save">save</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_save"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_delete">delete</a>()
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_delete"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a target="_blank" href="http://php.net/stdClass">stdClass</a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getLinks">getLinks</a>()
+        
+                                            <p>Get the _links.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getLinks"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getStatus">getStatus</a>()
+        
+                                            <p>Get the status.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getStatus"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCreated">getCreated</a>()
+        
+                                            <p>Get the created.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getCreated"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Users/UserProfile.html"><abbr title="Okta\Users\UserProfile">UserProfile</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getProfile">getProfile</a>(array $options = [])
+        
+                                            <p>Get the profile.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getProfile"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Generated/Users/User.html"><abbr title="Okta\Generated\Users\User">User</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setProfile">setProfile</a>(<a href="../../Okta/Users/UserProfile.html"><abbr title="Okta\Users\UserProfile">UserProfile</abbr></a> $profile)
+        
+                                            <p>Set the profile.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_setProfile"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a target="_blank" href="http://php.net/stdClass">stdClass</a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getEmbedded">getEmbedded</a>()
+        
+                                            <p>Get the _embedded.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getEmbedded"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getActivated">getActivated</a>()
+        
+                                            <p>Get the activated.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getActivated"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getLastLogin">getLastLogin</a>()
+        
+                                            <p>Get the lastLogin.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getLastLogin"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Users/UserCredentials.html"><abbr title="Okta\Users\UserCredentials">UserCredentials</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCredentials">getCredentials</a>(array $options = [])
+        
+                                            <p>Get the credentials.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getCredentials"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Generated/Users/User.html"><abbr title="Okta\Generated\Users\User">User</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setCredentials">setCredentials</a>(<a href="../../Okta/Users/UserCredentials.html"><abbr title="Okta\Users\UserCredentials">UserCredentials</abbr></a> $credentials)
+        
+                                            <p>Set the credentials.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_setCredentials"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getLastUpdated">getLastUpdated</a>()
+        
+                                            <p>Get the lastUpdated.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getLastUpdated"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getStatusChanged">getStatusChanged</a>()
+        
+                                            <p>Get the statusChanged.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getStatusChanged"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getPasswordChanged">getPasswordChanged</a>()
+        
+                                            <p>Get the passwordChanged.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getPasswordChanged"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getTransitioningToStatus">getTransitioningToStatus</a>()
+        
+                                            <p>Get the transitioningToStatus.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getTransitioningToStatus"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_endAllSessions">endAllSessions</a>($oauthTokens = false)
+        
+                                            <p>Removes all active identity provider sessions. This forces the user to authenticate on the next operation. Optionally revokes OpenID Connect and OAuth refresh and access tokens issued to the user.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_endAllSessions"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Users/Collection.html"><abbr title="Okta\Users\Collection">Collection</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getAppLinks">getAppLinks</a>(array $options = [])
+        
+                                            <p>Get the AppLink object.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getAppLinks"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_changePassword">changePassword</a>(<a href="../../Okta/Generated/Users/ChangePasswordRequest.html"><abbr title="Okta\Generated\Users\ChangePasswordRequest">ChangePasswordRequest</abbr></a> $changePasswordRequest)
+        
+                                            <p>Changes a user&#x27;s password by validating the user&#x27;s current password.  This operation can only be performed on users in &#x60;STAGED&#x60;, &#x60;ACTIVE&#x60;, &#x60;PASSWORD_EXPIRED&#x60;, or &#x60;RECOVERY&#x60; status that have a valid <a href="#password-object">password credential</a></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_changePassword"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_changeRecoveryQuestion">changeRecoveryQuestion</a>(<a href="../../Okta/Generated/Users/UserCredentials.html"><abbr title="Okta\Generated\Users\UserCredentials">UserCredentials</abbr></a> $userCredentials)
+        
+                                            <p>Changes a user&#x27;s recovery question &amp; answer credential by validating the user&#x27;s current password.  This operation can only be performed on users in <strong>STAGED</strong>, <strong>ACTIVE</strong> or <strong>RECOVERY</strong> &#x60;status&#x60; that have a valid <a href="#password-object">password credential</a></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_changeRecoveryQuestion"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_forgotPassword">forgotPassword</a>(<a href="../../Okta/Generated/Users/UserCredentials.html"><abbr title="Okta\Generated\Users\UserCredentials">UserCredentials</abbr></a> $userCredentials, $sendEmail = true)
+        
+                                            <p>Generates a one-time token (OTT) that can be used to reset a user&#x27;s password.  The user will be required to validate their security question&#x27;s answer when visiting the reset link.  This operation can only be performed on users with a valid <a href="#recovery-question-object">recovery question credential</a> and have an &#x60;ACTIVE&#x60; status.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_forgotPassword"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Users/Collection.html"><abbr title="Okta\Users\Collection">Collection</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getRoles">getRoles</a>(array $options = [])
+        
+                                            <p>Get the Role object.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getRoles"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addRole">addRole</a>(<a href="../../Okta/Generated/Users/Role.html"><abbr title="Okta\Generated\Users\Role">Role</abbr></a> $role)
+        
+                                            <p>Assigns a role to a user.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_addRole"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_removeRole">removeRole</a>($roleId)
+        
+                                            <p>Unassigns a role from a user.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_removeRole"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Groups/Collection.html"><abbr title="Okta\Groups\Collection">Collection</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getGroupTargetsForRole">getGroupTargetsForRole</a>($roleId, array $options = [])
+        
+                                            <p>Get the Group object.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getGroupTargetsForRole"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_removeGroupTargetFromRole">removeGroupTargetFromRole</a>($roleId, $groupId)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_removeGroupTargetFromRole"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addGroupTargetToRole">addGroupTargetToRole</a>($roleId, $groupId)
+        
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_addGroupTargetToRole"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/Groups/Collection.html"><abbr title="Okta\Groups\Collection">Collection</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getGroups">getGroups</a>(array $options = [])
+        
+                                            <p>Get the Group object.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getGroups"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_activate">activate</a>(bool $sendEmail = true)
+        
+                                            <p>Activates a user.  This operation can only be performed on users with a &#x60;STAGED&#x60; status.  Activation of a user is an asynchronous operation.  The user will have the &#x60;transitioningToStatus&#x60; property with a value of &#x60;ACTIVE&#x60; during activation to indicate that the user hasn&#x27;t completed the asynchronous operation.  The user will have a status of &#x60;ACTIVE&#x60; when the activation process is complete.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_activate"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_deactivate">deactivate</a>()
+        
+                                            <p>Deactivates a user.  This operation can only be performed on users that do not have a &#x60;DEPROVISIONED&#x60; status.  Deactivation of a user is an asynchronous operation.  The user will have the &#x60;transitioningToStatus&#x60; property with a value of &#x60;DEPROVISIONED&#x60; during deactivation to indicate that the user hasn&#x27;t completed the asynchronous operation.  The user will have a status of &#x60;DEPROVISIONED&#x60; when the deactivation process is complete.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_deactivate"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_suspend">suspend</a>()
+        
+                                            <p>Suspends a user.  This operation can only be performed on users with an &#x60;ACTIVE&#x60; status.  The user will have a status of &#x60;SUSPENDED&#x60; when the process is complete.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_suspend"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_unsuspend">unsuspend</a>()
+        
+                                            <p>Unsuspends a user and returns them to the &#x60;ACTIVE&#x60; state.  This operation can only be performed on users that have a &#x60;SUSPENDED&#x60; status.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_unsuspend"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_resetPassword">resetPassword</a>()
+        
+                                            <p>Generates a one-time token (OTT) that can be used to reset a user&#x27;s password.  The OTT link can be automatically emailed to the user or returned to the API caller and distributed using a custom flow.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_resetPassword"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_expirePassword">expirePassword</a>($tempPassword = false)
+        
+                                            <p>This operation transitions the user to the status of &#x60;PASSWORD_EXPIRED&#x60; so that the user is required to change their password at their next login.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_expirePassword"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_unlock">unlock</a>()
+        
+                                            <p>Unlocks a user with a &#x60;LOCKED_OUT&#x60; status and returns them to &#x60;ACTIVE&#x60; status.  Users will be able to login with their current password.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_unlock"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_resetFactors">resetFactors</a>()
+        
+                                            <p>This operation resets all factors for the specified user. All MFA factor enrollments returned to the unenrolled state. The user&#x27;s status remains ACTIVE. This link is present only if the user is currently enrolled in one or more MFA factors.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_resetFactors"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addToGroup">addToGroup</a>($groupId)
+        
+                                            <p>Adds a <a href="users.html#user-model">user</a> to a group with &#x60;OKTA_GROUP&#x60; type.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_addToGroup"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_addFactor">addFactor</a>(<a href="../../Okta/UserFactors/Factor.html"><abbr title="Okta\UserFactors\Factor">Factor</abbr></a> $factor, $updatePhone = false)
+        
+                                            <p>Enrolls a user with a supported <a href="#list-factors-to-enroll">factor</a></p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_addFactor"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/UserFactors/Collection.html"><abbr title="Okta\UserFactors\Collection">Collection</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getSupportedFactors">getSupportedFactors</a>(array $options = [])
+        
+                                            <p>Get the Factor object.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/UserFactors/Collection.html"><abbr title="Okta\UserFactors\Collection">Collection</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getFactors">getFactors</a>(array $options = [])
+        
+                                            <p>Get the Factor object.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <a href="../../Okta/UserFactors/SecurityQuestionsCollection.html"><abbr title="Okta\UserFactors\SecurityQuestionsCollection">SecurityQuestionsCollection</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getSupportedSecurityQuestions">getSupportedSecurityQuestions</a>(array $options = [])
+        
+                                            <p>Get the SecurityQuestion object.</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getSupportedSecurityQuestions"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    mixed|null
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getFactor">getFactor</a>($factorId)
+        
+                                            <p>Fetches a factor for the specified user</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Okta/Generated/Users/User.html#method_getFactor"><abbr title="Okta\Generated\Users\User">User</abbr></a></small></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method___construct">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method___construct"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L68">line 68</a></div>
+        <code>                    
+    <strong>__construct</strong>(<a href="../../Okta/DataStore/DefaultDataStore.html"><abbr title="Okta\DataStore\DefaultDataStore">DefaultDataStore</abbr></a> $dataStore = null, <a target="_blank" href="http://php.net/stdClass">stdClass</a> $properties = null, array $options = [])
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>AbstractResource constructor.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Okta/DataStore/DefaultDataStore.html"><abbr title="Okta\DataStore\DefaultDataStore">DefaultDataStore</abbr></a></td>
+                <td>$dataStore</td>
+                <td>DataStore to use for requests.</td>
+            </tr>
+                    <tr>
+                <td><a target="_blank" href="http://php.net/stdClass">stdClass</a></td>
+                <td>$properties</td>
+                <td>Properties for the resource.</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td>Options to use on the resource.</td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getHref">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_getHref"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L82">line 82</a></div>
+        <code>                    string
+    <strong>getHref</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Gets the href property.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setProperties">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_setProperties"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L93">line 93</a></div>
+        <code>                    <a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+    <strong>setProperties</strong>(<a target="_blank" href="http://php.net/stdClass">stdClass</a> $properties = null)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set properties on the resource.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a target="_blank" href="http://php.net/stdClass">stdClass</a></td>
+                <td>$properties</td>
+                <td>the properties to set.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getProperty">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_getProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L116">line 116</a></div>
+        <code>                    mixed|null
+    <strong>getProperty</strong>(string $name, string|null $castTo = null)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Gets a property off the resource and allow you to cast it to a type.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>Property to get off the resource.</td>
+            </tr>
+                    <tr>
+                <td>string|null</td>
+                <td>$castTo</td>
+                <td>Cast your item to this type.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getLinkProperty">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_getLinkProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L133">line 133</a></div>
+        <code>                    mixed|null
+    <strong>getLinkProperty</strong>(string $key)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get a HAL Linked property.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$key</td>
+                <td>The property you want to get from the _links section.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getDateProperty">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_getDateProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L155">line 155</a></div>
+        <code>                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+    <strong>getDateProperty</strong>(string $name)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Returns an instance of Carbon for the date property.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>Get this date property of the resource.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Carbon\Carbon">Carbon</abbr>|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getPropertyNames">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_getPropertyNames"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L172">line 172</a></div>
+        <code>                    array
+    <strong>getPropertyNames</strong>(bool $retrieveDirtyProperties = false)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Gets the current property names for the resource.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>bool</td>
+                <td>$retrieveDirtyProperties</td>
+                <td>determines if you want to get only dirty properties with id.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getDirtyPropertyNames">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_getDirtyPropertyNames"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L186">line 186</a></div>
+        <code>            protected        array
+    <strong>getDirtyPropertyNames</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Gets the property names that have been updated.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setOptions">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_setOptions"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L204">line 204</a></div>
+        <code>                    <a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+    <strong>setOptions</strong>(array $options)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the current options to use for the resource.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td>The options to set on the resource, typically query params.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_clearOptions">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_clearOptions"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L215">line 215</a></div>
+        <code>                    <a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+    <strong>clearOptions</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Clears all options on the resource.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getOptions">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_getOptions"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L226">line 226</a></div>
+        <code>                    array
+    <strong>getOptions</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the options currently set on the resource.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getResourceProperty">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_getResourceProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L240">line 240</a></div>
+        <code>            protected        <a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+    <strong>getResourceProperty</strong>(string $key, string $className, array $options = array())
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get a resource property from the resource.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$key</td>
+                <td>The name of the resource property you want to get.</td>
+            </tr>
+                    <tr>
+                <td>string</td>
+                <td>$className</td>
+                <td>The class name you want to return as.</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td>Additional options to pass, Typically query params.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setResourceProperty">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_setResourceProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L256">line 256</a></div>
+        <code>            protected        void
+    <strong>setResourceProperty</strong>(string $name, <a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> $resource)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set a resource property  on a resource.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>Which property do you want to set.</td>
+            </tr>
+                    <tr>
+                <td><a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></td>
+                <td>$resource</td>
+                <td>What you want to set the property as.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setProperty">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_setProperty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L269">line 269</a></div>
+        <code>            protected        void
+    <strong>setProperty</strong>(string $name, mixed $value)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set a property on a resource.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$name</td>
+                <td>Which property do you want to set.</td>
+            </tr>
+                    <tr>
+                <td>mixed</td>
+                <td>$value</td>
+                <td>What you want to set the property as.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>void</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getDataStore">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_getDataStore"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L281">line 281</a></div>
+        <code>            protected        <a href="../../Okta/DataStore/DefaultDataStore.html"><abbr title="Okta\DataStore\DefaultDataStore">DefaultDataStore</abbr></a>
+    <strong>getDataStore</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the current DataStore instance.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/DataStore/DefaultDataStore.html"><abbr title="Okta\DataStore\DefaultDataStore">DefaultDataStore</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_isDirty">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_isDirty"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L293">line 293</a></div>
+        <code>            protected        bool
+    <strong>isDirty</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Is the resource dirty.</p>                    <p>Has the resource been updated since you retrieved it from the API.</p>                            </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>bool</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getId">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getId"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L89">line 89</a></div>
+        <code>                    string|null
+    <strong>getId</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the id.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_isNew">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method_isNew"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L313">line 313</a></div>
+        <code>            protected        bool
+    <strong>isNew</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Determines if the resource is new or not based on assigned id property.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>bool</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method___get">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method___get"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L339">line 339</a></div>
+        <code>                    mixed|null
+    <strong>__get</strong>(string $property)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Magic "get" method</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$property</td>
+                <td>Property name</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td>Property value if it exists, null if not</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method___set">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method___set"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L360">line 360</a></div>
+        <code>                    <a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a>
+    <strong>__set</strong>(string $property, mixed $value)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Magic "set" method</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$property</td>
+                <td>Property name</td>
+            </tr>
+                    <tr>
+                <td>mixed</td>
+                <td>$value</td>
+                <td>Property value</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Resource/AbstractResource.html"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method___toString">
+        <div class="location">in <a href="../../Okta/Resource/AbstractResource.html#method___toString"><abbr title="Okta\Resource\AbstractResource">AbstractResource</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Resource/AbstractResource.php#L377">line 377</a></div>
+        <code>                    string
+    <strong>__toString</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Returns a json string representation of the resource.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_create">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_create"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L41">line 41</a></div>
+        <code>                    
+    <strong>create</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_get">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_get"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L52">line 52</a></div>
+        <code>                    
+    <strong>get</strong>($query)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$query</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_save">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_save"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L63">line 63</a></div>
+        <code>                    
+    <strong>save</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_delete">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_delete"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L74">line 74</a></div>
+        <code>                    
+    <strong>delete</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getLinks">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getLinks"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L99">line 99</a></div>
+        <code>                    <a target="_blank" href="http://php.net/stdClass">stdClass</a>
+    <strong>getLinks</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the _links.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a target="_blank" href="http://php.net/stdClass">stdClass</a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getStatus">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getStatus"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L109">line 109</a></div>
+        <code>                    string
+    <strong>getStatus</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the status.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCreated">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getCreated"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L119">line 119</a></div>
+        <code>                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+    <strong>getCreated</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the created.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Carbon\Carbon">Carbon</abbr>|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getProfile">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getProfile"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L129">line 129</a></div>
+        <code>                    <a href="../../Okta/Users/UserProfile.html"><abbr title="Okta\Users\UserProfile">UserProfile</abbr></a>
+    <strong>getProfile</strong>(array $options = [])
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the profile.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Users/UserProfile.html"><abbr title="Okta\Users\UserProfile">UserProfile</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setProfile">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_setProfile"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L145">line 145</a></div>
+        <code>                    <a href="../../Okta/Generated/Users/User.html"><abbr title="Okta\Generated\Users\User">User</abbr></a>
+    <strong>setProfile</strong>(<a href="../../Okta/Users/UserProfile.html"><abbr title="Okta\Users\UserProfile">UserProfile</abbr></a> $profile)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the profile.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Okta/Users/UserProfile.html"><abbr title="Okta\Users\UserProfile">UserProfile</abbr></a></td>
+                <td>$profile</td>
+                <td>The UserProfile instance.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Generated/Users/User.html"><abbr title="Okta\Generated\Users\User">User</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getEmbedded">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getEmbedded"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L160">line 160</a></div>
+        <code>                    <a target="_blank" href="http://php.net/stdClass">stdClass</a>
+    <strong>getEmbedded</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the _embedded.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a target="_blank" href="http://php.net/stdClass">stdClass</a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getActivated">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getActivated"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L170">line 170</a></div>
+        <code>                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+    <strong>getActivated</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the activated.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Carbon\Carbon">Carbon</abbr>|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getLastLogin">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getLastLogin"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L180">line 180</a></div>
+        <code>                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+    <strong>getLastLogin</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the lastLogin.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Carbon\Carbon">Carbon</abbr>|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCredentials">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getCredentials"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L190">line 190</a></div>
+        <code>                    <a href="../../Okta/Users/UserCredentials.html"><abbr title="Okta\Users\UserCredentials">UserCredentials</abbr></a>
+    <strong>getCredentials</strong>(array $options = [])
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the credentials.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Users/UserCredentials.html"><abbr title="Okta\Users\UserCredentials">UserCredentials</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setCredentials">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_setCredentials"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L206">line 206</a></div>
+        <code>                    <a href="../../Okta/Generated/Users/User.html"><abbr title="Okta\Generated\Users\User">User</abbr></a>
+    <strong>setCredentials</strong>(<a href="../../Okta/Users/UserCredentials.html"><abbr title="Okta\Users\UserCredentials">UserCredentials</abbr></a> $credentials)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Set the credentials.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Okta/Users/UserCredentials.html"><abbr title="Okta\Users\UserCredentials">UserCredentials</abbr></a></td>
+                <td>$credentials</td>
+                <td>The UserCredentials instance.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Generated/Users/User.html"><abbr title="Okta\Generated\Users\User">User</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getLastUpdated">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getLastUpdated"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L221">line 221</a></div>
+        <code>                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+    <strong>getLastUpdated</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the lastUpdated.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Carbon\Carbon">Carbon</abbr>|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getStatusChanged">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getStatusChanged"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L231">line 231</a></div>
+        <code>                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+    <strong>getStatusChanged</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the statusChanged.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Carbon\Carbon">Carbon</abbr>|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getPasswordChanged">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getPasswordChanged"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L241">line 241</a></div>
+        <code>                    <abbr title="Carbon\Carbon">Carbon</abbr>|null
+    <strong>getPasswordChanged</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the passwordChanged.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="Carbon\Carbon">Carbon</abbr>|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getTransitioningToStatus">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getTransitioningToStatus"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L251">line 251</a></div>
+        <code>                    string
+    <strong>getTransitioningToStatus</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the transitioningToStatus.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_endAllSessions">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_endAllSessions"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L263">line 263</a></div>
+        <code>                    mixed|null
+    <strong>endAllSessions</strong>($oauthTokens = false)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Removes all active identity provider sessions. This forces the user to authenticate on the next operation. Optionally revokes OpenID Connect and OAuth refresh and access tokens issued to the user.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$oauthTokens</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getAppLinks">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getAppLinks"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L283">line 283</a></div>
+        <code>                    <a href="../../Okta/Users/Collection.html"><abbr title="Okta\Users\Collection">Collection</abbr></a>
+    <strong>getAppLinks</strong>(array $options = [])
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the AppLink object.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td>The options for the request.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Users/Collection.html"><abbr title="Okta\Users\Collection">Collection</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_changePassword">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_changePassword"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L303">line 303</a></div>
+        <code>                    mixed|null
+    <strong>changePassword</strong>(<a href="../../Okta/Generated/Users/ChangePasswordRequest.html"><abbr title="Okta\Generated\Users\ChangePasswordRequest">ChangePasswordRequest</abbr></a> $changePasswordRequest)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Changes a user&#x27;s password by validating the user&#x27;s current password.  This operation can only be performed on users in &#x60;STAGED&#x60;, &#x60;ACTIVE&#x60;, &#x60;PASSWORD_EXPIRED&#x60;, or &#x60;RECOVERY&#x60; status that have a valid <a href="#password-object">password credential</a></p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Okta/Generated/Users/ChangePasswordRequest.html"><abbr title="Okta\Generated\Users\ChangePasswordRequest">ChangePasswordRequest</abbr></a></td>
+                <td>$changePasswordRequest</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_changeRecoveryQuestion">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_changeRecoveryQuestion"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L323">line 323</a></div>
+        <code>                    mixed|null
+    <strong>changeRecoveryQuestion</strong>(<a href="../../Okta/Generated/Users/UserCredentials.html"><abbr title="Okta\Generated\Users\UserCredentials">UserCredentials</abbr></a> $userCredentials)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Changes a user&#x27;s recovery question &amp; answer credential by validating the user&#x27;s current password.  This operation can only be performed on users in <strong>STAGED</strong>, <strong>ACTIVE</strong> or <strong>RECOVERY</strong> &#x60;status&#x60; that have a valid <a href="#password-object">password credential</a></p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Okta/Generated/Users/UserCredentials.html"><abbr title="Okta\Generated\Users\UserCredentials">UserCredentials</abbr></a></td>
+                <td>$userCredentials</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_forgotPassword">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_forgotPassword"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L343">line 343</a></div>
+        <code>                    mixed|null
+    <strong>forgotPassword</strong>(<a href="../../Okta/Generated/Users/UserCredentials.html"><abbr title="Okta\Generated\Users\UserCredentials">UserCredentials</abbr></a> $userCredentials, $sendEmail = true)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Generates a one-time token (OTT) that can be used to reset a user&#x27;s password.  The user will be required to validate their security question&#x27;s answer when visiting the reset link.  This operation can only be performed on users with a valid <a href="#recovery-question-object">recovery question credential</a> and have an &#x60;ACTIVE&#x60; status.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Okta/Generated/Users/UserCredentials.html"><abbr title="Okta\Generated\Users\UserCredentials">UserCredentials</abbr></a></td>
+                <td>$userCredentials</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$sendEmail</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getRoles">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getRoles"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L363">line 363</a></div>
+        <code>                    <a href="../../Okta/Users/Collection.html"><abbr title="Okta\Users\Collection">Collection</abbr></a>
+    <strong>getRoles</strong>(array $options = [])
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the Role object.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td>The options for the request.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Users/Collection.html"><abbr title="Okta\Users\Collection">Collection</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addRole">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_addRole"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L383">line 383</a></div>
+        <code>                    mixed|null
+    <strong>addRole</strong>(<a href="../../Okta/Generated/Users/Role.html"><abbr title="Okta\Generated\Users\Role">Role</abbr></a> $role)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Assigns a role to a user.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Okta/Generated/Users/Role.html"><abbr title="Okta\Generated\Users\Role">Role</abbr></a></td>
+                <td>$role</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_removeRole">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_removeRole"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L403">line 403</a></div>
+        <code>                    mixed|null
+    <strong>removeRole</strong>($roleId)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Unassigns a role from a user.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$roleId</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getGroupTargetsForRole">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getGroupTargetsForRole"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L423">line 423</a></div>
+        <code>                    <a href="../../Okta/Groups/Collection.html"><abbr title="Okta\Groups\Collection">Collection</abbr></a>
+    <strong>getGroupTargetsForRole</strong>($roleId, array $options = [])
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the Group object.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$roleId</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Groups/Collection.html"><abbr title="Okta\Groups\Collection">Collection</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_removeGroupTargetFromRole">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_removeGroupTargetFromRole"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L443">line 443</a></div>
+        <code>                    mixed|null
+    <strong>removeGroupTargetFromRole</strong>($roleId, $groupId)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$roleId</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$groupId</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addGroupTargetToRole">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_addGroupTargetToRole"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L463">line 463</a></div>
+        <code>                    mixed|null
+    <strong>addGroupTargetToRole</strong>($roleId, $groupId)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$roleId</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$groupId</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getGroups">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getGroups"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L483">line 483</a></div>
+        <code>                    <a href="../../Okta/Groups/Collection.html"><abbr title="Okta\Groups\Collection">Collection</abbr></a>
+    <strong>getGroups</strong>(array $options = [])
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the Group object.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td>The options for the request.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/Groups/Collection.html"><abbr title="Okta\Groups\Collection">Collection</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_activate">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_activate"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L503">line 503</a></div>
+        <code>                    mixed|null
+    <strong>activate</strong>(bool $sendEmail = true)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Activates a user.  This operation can only be performed on users with a &#x60;STAGED&#x60; status.  Activation of a user is an asynchronous operation.  The user will have the &#x60;transitioningToStatus&#x60; property with a value of &#x60;ACTIVE&#x60; during activation to indicate that the user hasn&#x27;t completed the asynchronous operation.  The user will have a status of &#x60;ACTIVE&#x60; when the activation process is complete.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>bool</td>
+                <td>$sendEmail</td>
+                <td>Sets the sendEmail flag.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_deactivate">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_deactivate"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L523">line 523</a></div>
+        <code>                    mixed|null
+    <strong>deactivate</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Deactivates a user.  This operation can only be performed on users that do not have a &#x60;DEPROVISIONED&#x60; status.  Deactivation of a user is an asynchronous operation.  The user will have the &#x60;transitioningToStatus&#x60; property with a value of &#x60;DEPROVISIONED&#x60; during deactivation to indicate that the user hasn&#x27;t completed the asynchronous operation.  The user will have a status of &#x60;DEPROVISIONED&#x60; when the deactivation process is complete.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_suspend">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_suspend"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L543">line 543</a></div>
+        <code>                    mixed|null
+    <strong>suspend</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Suspends a user.  This operation can only be performed on users with an &#x60;ACTIVE&#x60; status.  The user will have a status of &#x60;SUSPENDED&#x60; when the process is complete.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_unsuspend">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_unsuspend"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L563">line 563</a></div>
+        <code>                    mixed|null
+    <strong>unsuspend</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Unsuspends a user and returns them to the &#x60;ACTIVE&#x60; state.  This operation can only be performed on users that have a &#x60;SUSPENDED&#x60; status.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_resetPassword">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_resetPassword"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L583">line 583</a></div>
+        <code>                    mixed|null
+    <strong>resetPassword</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Generates a one-time token (OTT) that can be used to reset a user&#x27;s password.  The OTT link can be automatically emailed to the user or returned to the API caller and distributed using a custom flow.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_expirePassword">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_expirePassword"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L603">line 603</a></div>
+        <code>                    mixed|null
+    <strong>expirePassword</strong>($tempPassword = false)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>This operation transitions the user to the status of &#x60;PASSWORD_EXPIRED&#x60; so that the user is required to change their password at their next login.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$tempPassword</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_unlock">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_unlock"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L623">line 623</a></div>
+        <code>                    mixed|null
+    <strong>unlock</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Unlocks a user with a &#x60;LOCKED_OUT&#x60; status and returns them to &#x60;ACTIVE&#x60; status.  Users will be able to login with their current password.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_resetFactors">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_resetFactors"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L643">line 643</a></div>
+        <code>                    mixed|null
+    <strong>resetFactors</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>This operation resets all factors for the specified user. All MFA factor enrollments returned to the unenrolled state. The user&#x27;s status remains ACTIVE. This link is present only if the user is currently enrolled in one or more MFA factors.</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addToGroup">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_addToGroup"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L663">line 663</a></div>
+        <code>                    mixed|null
+    <strong>addToGroup</strong>($groupId)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Adds a <a href="users.html#user-model">user</a> to a group with &#x60;OKTA_GROUP&#x60; type.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$groupId</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_addFactor">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_addFactor"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L683">line 683</a></div>
+        <code>                    mixed|null
+    <strong>addFactor</strong>(<a href="../../Okta/UserFactors/Factor.html"><abbr title="Okta\UserFactors\Factor">Factor</abbr></a> $factor, $updatePhone = false)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Enrolls a user with a supported <a href="#list-factors-to-enroll">factor</a></p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Okta/UserFactors/Factor.html"><abbr title="Okta\UserFactors\Factor">Factor</abbr></a></td>
+                <td>$factor</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td></td>
+                <td>$updatePhone</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSupportedFactors">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Users/User.php#L25">line 25</a></div>
+        <code>                    <a href="../../Okta/UserFactors/Collection.html"><abbr title="Okta\UserFactors\Collection">Collection</abbr></a>
+    <strong>getSupportedFactors</strong>(array $options = [])
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the Factor object.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td>The options for the request.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/UserFactors/Collection.html"><abbr title="Okta\UserFactors\Collection">Collection</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getFactors">
+        <div class="location">at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Users/User.php#L35">line 35</a></div>
+        <code>                    <a href="../../Okta/UserFactors/Collection.html"><abbr title="Okta\UserFactors\Collection">Collection</abbr></a>
+    <strong>getFactors</strong>(array $options = [])
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the Factor object.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td>The options for the request.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/UserFactors/Collection.html"><abbr title="Okta\UserFactors\Collection">Collection</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSupportedSecurityQuestions">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getSupportedSecurityQuestions"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L744">line 744</a></div>
+        <code>                    <a href="../../Okta/UserFactors/SecurityQuestionsCollection.html"><abbr title="Okta\UserFactors\SecurityQuestionsCollection">SecurityQuestionsCollection</abbr></a>
+    <strong>getSupportedSecurityQuestions</strong>(array $options = [])
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Get the SecurityQuestion object.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>array</td>
+                <td>$options</td>
+                <td>The options for the request.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><a href="../../Okta/UserFactors/SecurityQuestionsCollection.html"><abbr title="Okta\UserFactors\SecurityQuestionsCollection">SecurityQuestionsCollection</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getFactor">
+        <div class="location">in <a href="../../Okta/Generated/Users/User.html#method_getFactor"><abbr title="Okta\Generated\Users\User">User</abbr></a> at         <a href="https://github.com/okta/okta-sdk-php/blob/1.0.0/src/Generated/Users/User.php#L764">line 764</a></div>
+        <code>                    mixed|null
+    <strong>getFactor</strong>($factorId)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>Fetches a factor for the specified user</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td></td>
+                <td>$factorId</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>mixed|null</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+            </div>
+                <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/">Sami, the API Documentation Generator</a>.
+    </div>
+
+        </div>
+    </div>
+    </body>
+
+</html>
