@@ -60,7 +60,6 @@ Dependencies:
 | symfony/var-dumper                  | v3.3.0   | MIT
 | symfony/yaml                        | v3.3.0   | MIT
 | theseer/tokenizer                   | 1.1.0    | BSD-3-Clause
-| tightenco/collect                   | v5.4.20  | MIT
 | webmozart/assert                    | 1.2.0    | MIT
 
 
